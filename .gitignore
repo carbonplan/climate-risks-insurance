@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Notebook output files
+notebooks/*.svg
+notebooks/risks.json
