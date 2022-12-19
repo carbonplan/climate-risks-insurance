@@ -1,6 +1,9 @@
 carbonplan
 carbonplan[styles]
 carbonplan[data]
-zarr
-intake
-intake-xarray
+geopandas
+jupyterlab
+numpy
+matplotlib
+pandas
+xarray
