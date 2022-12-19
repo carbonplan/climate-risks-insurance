@@ -28,6 +28,7 @@ jobs:
           architecture: x64
       - run: | # install package and test requirements as well as package
           python -m pip install -r requirements.txt
+          python -m pip install nbconvert
           python -m pip list
       - name: Running Jupyter Notebooks
         run: |
