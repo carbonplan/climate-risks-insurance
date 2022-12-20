@@ -5,14 +5,14 @@
 
 # climate-risks-insurance
 
-Analyses to inform the Federal Insurance Office's call for data about the insurance industry, focusing on climate vulnerable states.
+Analyses to inform the Federal Insurance Office's call for data about the insurance industry, focusing on climate-vulnerable states.
 
 [![CI](https://github.com/carbonplan/climate-risks-insurance/actions/workflows/main.yaml/badge.svg)](https://github.com/carbonplan/climate-risks-insurance/actions/workflows/main.yaml)
 ![MIT License][]
 
 [mit license]: https://badgen.net/badge/license/MIT/blue
 
-This carbonplan repository contains two notebooks, one which analyzes insurance data from California and another which packages National Risk Index data for display in an interactive web tool.
+This repository contains two notebooks, one which analyzes insurance data from California and another which packages National Risk Index data for display in an interactive web tool.
 
 ## datasets
 The data contained in and used by this repo and the companion web tool are referenced below with relevant links.
