@@ -32,4 +32,4 @@ jobs:
           python -m pip list
       - name: Running Jupyter Notebooks
         run: |
-          for nb in notebooks/*.ipynb; do echo $nb; time jupyter nbconvert --to notebook --execute $nb; done
+          for nb in notebooks/*.ipynb; do echo $nb; time jupyter nbconvert --to notebook --execute $nb --ExecutePreprocessor.kernel_name=python3 --inplace; done
