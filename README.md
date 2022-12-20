@@ -3,30 +3,28 @@
   height='48'
 />
 
-# python-project-template
+# climate-risks-insurance
 
-A carbonplan template for a developing a python project
+Analyses to inform the Federal Insurance Office's call for data about the insurance industry, focusing on climate vulnerable states.
 
-[![CI](https://github.com/carbonplan/python-project-template/actions/workflows/main.yaml/badge.svg)](https://github.com/carbonplan/python-project-template/actions/workflows/main.yaml)
+[![CI](https://github.com/carbonplan/climate-risks-insurance/actions/workflows/main.yaml/badge.svg)](https://github.com/carbonplan/climate-risks-insurance/actions/workflows/main.yaml)
 ![MIT License][]
 
 [mit license]: https://badgen.net/badge/license/MIT/blue
 
-This carbonplan repository contains a template for developing a python project. To start, click on the green [Use this template](https://github.com/carbonplan/python-project-template/generate) in the top right. This will allow you to create a new project using this base template.
+This carbonplan repository contains two notebooks, one which analyzes insurance data from California and another which packages National Risk Index data for display in an interactive web tool.
 
-## Modifications
+## datasets
+The data used by the analyses in this repo were downloaded from a variety of public websites. See relevant links below:
 
-### Updating project name
+National Risk Index downloaded from [here](https://hazards.fema.gov/nri/data-resources). 
 
-`scripts` and `tests` contain filler .py files. Update/remove these with your project name.
+Zuzak, C., E. Goodenough, C. Stanton, M. Mowrer, N. Ranalli, D. Kealey, and J. Rozelle. 2021. National Risk Index Technical Documentation. Federal Emergency Management Agency, Washington, DC.
 
-### Updating workflows/main.yaml
+California Department of Insurance. Insurance Number of New, Renewed, and Non-Renewed Homeowners' Policies. Described [this press release](http://www.insurance.ca.gov/0400-news/0100-press-releases/2021/release117-2021.cfm) and downloaded [here](https://www.insurance.ca.gov/0400-news/0100-press-releases/2021/upload/nr117ResidentialInsurancePolicyAnalysisbyCounty12202021.pdf).
 
-In the workflows/main.yaml file, the pytest and docker sections of the github actions configuration are currently commented out. If you wish to add them, uncomment them.
+California county boundaries from the California Open Data portal [here](https://data.ca.gov/dataset/ca-geographic-boundaries).
 
-### Updating requirements.txt
-
-requirements.txt is currently empty. You can populate it with: `pip3 freeze > requirements.txt`
 
 ## license
 
