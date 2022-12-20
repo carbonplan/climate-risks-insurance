@@ -15,13 +15,15 @@ Analyses to inform the Federal Insurance Office's call for data about the insura
 This carbonplan repository contains two notebooks, one which analyzes insurance data from California and another which packages National Risk Index data for display in an interactive web tool.
 
 ## datasets
-The data used by the analyses in this repo were downloaded from a variety of public websites. See relevant links below:
+The data contained in and used by this repo and the companion web tool are referenced below with relevant links.
 
-National Risk Index downloaded from [here](https://hazards.fema.gov/nri/data-resources). 
+#### National Risk Index
+Downloaded from [here](https://hazards.fema.gov/nri/data-resources). 
 
-Zuzak, C., E. Goodenough, C. Stanton, M. Mowrer, N. Ranalli, D. Kealey, and J. Rozelle. 2021. National Risk Index Technical Documentation. Federal Emergency Management Agency, Washington, DC.
+Reference: Zuzak, C., E. Goodenough, C. Stanton, M. Mowrer, N. Ranalli, D. Kealey, and J. Rozelle. 2021. National Risk Index Technical Documentation. Federal Emergency Management Agency, Washington, DC.
 
-California Department of Insurance. Insurance Number of New, Renewed, and Non-Renewed Homeowners' Policies. Described [this press release](http://www.insurance.ca.gov/0400-news/0100-press-releases/2021/release117-2021.cfm) and downloaded [here](https://www.insurance.ca.gov/0400-news/0100-press-releases/2021/upload/nr117ResidentialInsurancePolicyAnalysisbyCounty12202021.pdf).
+#### California insurance data
+California Department of Insurance's Insurance Number of New, Renewed, and Non-Renewed Homeowners' Policies. Described in [this press release](http://www.insurance.ca.gov/0400-news/0100-press-releases/2021/release117-2021.cfm) and downloaded [here](https://www.insurance.ca.gov/0400-news/0100-press-releases/2021/upload/nr117ResidentialInsurancePolicyAnalysisbyCounty12202021.pdf).
 
 California county boundaries from the California Open Data portal [here](https://data.ca.gov/dataset/ca-geographic-boundaries).
 
