@@ -3,7 +3,7 @@ carbonplan-styles==0.4.2
 carbonplan-data==0.4.0
 geopandas==0.10.2
 jupyterlab==3.4.3
-numpy==1.22.4
+numpy==1.24.0
 matplotlib==3.5.2
 pandas==1.4.2
 xarray==2022.6.0rc0
